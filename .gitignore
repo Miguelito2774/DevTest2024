@@ -1,0 +1,37 @@
+# Git ignore Configuration
+
+## Git
+
+.git/
+
+## Editors Configurations
+
+.vscode/ .idea/ .zod/
+
+## Build Outputs
+
+build/ bin/ obj/ .next/
+
+## Files
+
+\*.binlog
+
+## Docker
+
+.containers/
+
+# Dependencies
+
+node_modules/
+
+# Testing
+
+coverage/
+
+# Vercel
+
+.vercel
+
+# Typescript
+
+\*.tsbuildinfo next-env.d.ts
